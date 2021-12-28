@@ -6,17 +6,17 @@ body{
     flex-direction: column;
     justify-content: center;
     justify-self: center;
-    width: 200px;
-    height:350px;
+    width: 100px;
+    height: 175px;
     border-radius: 12px;
-    
+    padding: 10px;
     
 }
 .icono{
     position: absolute;
     top: 20px;
     left: 20px;
-    font-size: 50px;
+    font-size: 25px;
     
 
     
@@ -25,9 +25,15 @@ body{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 #medio{
-    font-size: 80px;
+    font-size: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
